@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>updatedPortfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style01.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header class='mainTitle'>
+        <div class="row brandname">
+            <div class="col-sm-12 col-md-6 offset-md-3 navLogo">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/Logo/pozLogoHtml.jpg"
+                        alt="Company Logo" class="logoImage"></a>
+            </div>
+            <!-- <div class="col-sm-12 col-md-6">
+                <p id="currentTime"></p>
+            </div> -->
+        </div>
+    </header>
+
+    <section class="navBar">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light header">
+            <a class="navbar-brand navName" href="#">DHANI POZNIAK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fab fa fa-home"></i><span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/pozengineer" target='_blank'><i class="fab fa fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://linkedin.com/in/dhani-pozniak-34801a196" target='_blank'><i class="fab fa fa-linkedin-square"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!--
+                    <div class="navbar-nav">  
+                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </div>
+                    -->
+            </div>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a> -->
+        </nav>
+    </section>
+
+    <section id="mainContent">
+        <div class="container">
+            <!-- row01 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1><b>Projects</b></h1>
+                    <hr>
+                </div>
+            </div>
+            <!-- row01 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <br/>
+                    <h5>Click on Title Tab to access Application Content</h5>
+                    <br/>
+                </div>
+            </div>
+            <!-- row02 -->
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic01.jpg" alt="digiPic01" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#codeQuiz">
+                            Code Quiz
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="codeQuiz" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Code Quiz</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage01.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://pozengineer.github.io/codeQuiz/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/codeQuiz.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <br/>                                                
+                                                <p class="card-text">The web application is a code quiz that allows the user to answer a set of multiple
+                                                    choice questions with a countdown. If the user selects the correct answer, they get a score value
+                                                    increment. However, if they select the wrong answer, a time penalty is added to the countdown. When the
+                                                    user finishes the quiz, they are directed to a window where they insert their initials. The user clicks
+                                                    on a button that submits their initials alond with the final score that they have achieved into localStorage
+                                                    where they can view the data at any point in the application through the highscores tab which will list the
+                                                    highscores array.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic05.jpg" alt="digiPic05" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#passwordGenerator">
+                            Password Generator
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="passwordGenerator" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Password Generator</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage02.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://pozengineer.github.io/passwordGenerator/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/passwordGenerator.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">The web application is a password generator that allows the user to select from an array
+                                                    of character sets. The selected character sets will be added to a 'charSet' string which will then be used
+                                                    to generate the password by randomly selecting characters from the 'charSet' string. The length of the
+                                                    password is decided by the user and the application will continue to select random characters until the
+                                                    password length is reached. Additional functions include copy to clipboard and reset where the user is able
+                                                    to select the generated password and paste it into another document. The reset method enables the user
+                                                    to set the application to it's default values in order to generate a new password but it is not necessary
+                                                    as the user can simply click on the generate password button again.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="w-100"></div> -->
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic02.jpg" alt="digiPic02" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#dayCalender">
+                            Work Day Scheduler
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="dayCalender" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Work Day Scheduler</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage03.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://pozengineer.github.io/dayCalender/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/dayCalender.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">The web application is a day calender that enables the user to set tasks during the course
+                                                    of a working day between 09:00 and 5:00. The user enters text in the designated time block and clicks the
+                                                    save button which sends the value into local storage. The user can edit the text input at any time but must
+                                                    click the save button if they want to keep the entry stored. As time passes each time block is rendered a
+                                                    different color depending on its state.
+                                                    - If the time block is in the past the element is rendered orange.
+                                                    - If the time block is currently the element is rendered green.
+                                                    - If the time block is in the future the element is rendered white.
+                                                    When the application rolls over to the next day, the data entries are deleted and the local storage
+                                                    cleared for the upcoming working day.
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary"data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic03.jpg" alt="digiPic03" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#weatherDashboard">
+                            Weather Dashboard
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="weatherDashboard" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Weather Dashboard</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage04.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://pozengineer.github.io/weatherDashboard/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/weatherDashboard.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">The web application is a weather dashboard that enables the user to search any city in the
+                                                    world, and the application will display a response with the current weather conditions of that city as well
+                                                    as a five day forcast provided by a weather API. The application enables the user to store their searches in
+                                                    local storage and then creates button elements which will provide the same information when clicked. An additional
+                                                    feature of the application is that it utilses geolocation of the device to display the weather conditions of the city
+                                                    the user is currently in.
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary"data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="w-100"></div> -->
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic04.jpg" alt="digiPic04" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#myEventsApp">
+                            My Events App
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myEventsApp" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">My Events App</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage05.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://sherryj-sk.github.io/Project1/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/SherryJ-SK/Project1.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">This two paged web application is used to aid user on searching for events they like,
+                                                    and track them as their favorite in favorite page. It's designed in the concept of a small personal
+                                                    search engine for saving events and display the simplified information of the saved events. Also, this
+                                                    demo application can be considered as a starting point for a real company page as a third-party resource
+                                                    gathering engine. This application is developed under the concept of responsive design.
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic06.jpg" alt="digiPic06" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#burgerLogger">
+                            Burger Logger
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="burgerLogger" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Burger Logger</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage06.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://hidden-lowlands-55614.herokuapp.com/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/burgerLog.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">The web application is a burgerLogger application that enables the user to create a list of saved
+                                                    burgers each with an id, title, and button. The application uses validation to make sure the text box is not empty,
+                                                    if the user trys to create a burger with no value, the user will be alerted and await the user to enter a value.
+                                                    The created burgers are sent to the database where they are stored and then rendered back to the html page where
+                                                    the data is displayed according to the requests made. the following object relational mapping (orm) functions are
+                                                    used in this application.
+                                                    - Create a burger
+                                                    - Update the state of a burger
+                                                    - Delete a burger
+                                                    The application uses a server to retrieve and send data across various files which are then used
+                                                    the process the data in order to display the created burgers to the user. On the user interface side
+                                                    there was an additional feature added to the application which was a delete/ digest button added after
+                                                    the burger is devoured in order to delete the selected burger from the database. Express handlebars was
+                                                    used in creating the html page. The package allowed requested data to be rendered into the body of the
+                                                    html page instead of creating strings and pushing them into an html file.
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic07.jpg" alt="digiPic07" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#noteTaker">
+                            Note Taker
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="noteTaker" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Note Taker</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="assets/images/modalImage07.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://lit-cliffs-40463.herokuapp.com/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/noteTaker.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">The web application is a noteTaker application that enables the user to create a list of saved
+                                                    notes each with a title and text. Once the notes list has been generated, the user has the options to:
+                                                    - Create and save a new note
+                                                    - Delete an unwanted note
+                                                    The application uses a server to retrieve and send data across various files which are then used the process the
+                                                    data in order to display the created notes to the user. On the user interface side there are a few additional
+                                                    features added to the application including:
+                                                    - Creating an empty array if there is no data in the save file
+                                                    - Editing an existing note
+                                                    - Not duplicating an existing note title
+                                                    
+                                                    The following npm's and methods where used in the development of this application:
+                                                    - fs
+                                                    - express
+                                                    - path
+                                                    - jquery
+                                                    - util
+                                                    - .gitignore
+                                                    - get
+                                                    - post
+                                                    - delete
+                                                    - ajax
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <img src="assets/images/digiPic08.jpg" alt="digiPic06" class="img-fluid">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary label labelText" data-toggle="modal"
+                            data-target="#trafficTracker">
+                            Traffic Tracker
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="trafficTracker" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Traffic Tracker</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top" src="" alt="Card image cap">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Card title</h5> -->
+                                                <a href="https://hidden-lowlands-55614.herokuapp.com/" class='appLink' target='_blank'>Application Link</a>
+                                                <br/>
+                                                <a href="https://github.com/pozengineer/burgerLog.git" class='appLink' target='_blank'>Git Clone Repository Link</a>
+                                                <p class="card-text">The web application is a burgerLogger application that enables the user to create a list of saved
+                                                    burgers each with an id, title, and button. The application uses validation to make sure the text box is not empty,
+                                                    if the user trys to create a burger with no value, the user will be alerted and await the user to enter a value.
+                                                    The created burgers are sent to the database where they are stored and then rendered back to the html page where
+                                                    the data is displayed according to the requests made. the following object relational mapping (orm) functions are
+                                                    used in this application.
+                                                    - Create a burger
+                                                    - Update the state of a burger
+                                                    - Delete a burger
+                                                    The application uses a server to retrieve and send data across various files which are then used
+                                                    the process the data in order to display the created burgers to the user. On the user interface side
+                                                    there was an additional feature added to the application which was a delete/ digest button added after
+                                                    the burger is devoured in order to delete the selected burger from the database. Express handlebars was
+                                                    used in creating the html page. The package allowed requested data to be rendered into the body of the
+                                                    html page instead of creating strings and pushing them into an html file.
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="push"></div>
+
+    <footer class="footer mt-auto py-3">
+        <span class="text-muted">Copyright &#169; 2019 POZ DRAFTING & IT SOLUTIONS - All Rights Reserved</span>
+        <br/>
+        <a class="text-muted" href='#'>dhani@pozitsolutions.com.au</a>
+        <span class="text-muted">| 0412 966 933</span>
+        <br/>
+        <span class="text-muted">ROSE BAY, NSW</span>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/javaScript/moment.min.js"></script>
+    <script type="text/javascript" src="assets/javaScript/javaScript01.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("collapse");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
